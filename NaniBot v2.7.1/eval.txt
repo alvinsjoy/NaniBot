@@ -1,0 +1,24 @@
+{npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
+
+  DISPLAY: ':0',
+  HOME: '/home/runner',
+  HOSTNAME: 'f7edb73039aa',
+  LOCALE_ARCHIVE: '/usr/lib/locale/locale-archive',
+  NODE_PATH: '/usr/local/lib/node_modules:/home/runner/node_modules',
+  NODE_VERSION: '12.22.6',
+  PATH: '/nix/store/zp9d6770spl1x73i6qv145sk4q4ay4c0-pid1-0.0.0-30e3227/bin:/nix/store/1d14fcwp2z64wmmr5jpfa1m5zay0n9fq-silver-searcher-2.2.0/bin:/nix/store/fgbzvd4c6nly9m4dpczrxybdpkm8mnk3-bash-interactive-4.4-p23/bin:/nix/store/0vkw1m51q34dr64z5i87dy99an4hfmyg-coreutils-8.32/bin:/nix/store/ng35kcfzm03fdmp97nc2dxi63jv41sca-vscode-cpptools-dap-1.3.1/bin:/nix/store/n578yqf36hxxs6nhcwq35gkqhv2b00cl-replit-python-dap-wrapper-1.0.0/bin:/nix/store/yzr5fybypw977fxnqj3gsp3gznh1lbm2-fluxbox/bin:/nix/store/yajjhyqf4qc1jk0vp5hafz70wmii66dx-prybar-nodejs-0.0.0-4a42408/bin:/nix/store/7bf2l1b07vj9m9p1fn4g64h5sba2i9ls-pulseaudio-14.2/bin:/nix/store/8cpkwghsa1crf84x7155pnsx5xjqyzsz-rfbproxy-0.0.0-b81eb2f/bin:/nix/store/fy1vhp96i11ng6mwbr0l5apj68c64lgr-tigervnc-1.11.0/bin:/nix/store/mjbrcsjhn4smd1jdl4nkywpvzdyfcd14-upm-0.0.0-98447b2/bin:/nix/store/3hny06xvqvc4irdnknk732a2km9b93rq-xwininfo-1.1.4/bin:/home/runner/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  PWD: '/home/runner',
+  REPLIT_DB_URL: 'https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImtpZCI6InByaW1hcnktMjAyMS0wOS0yNSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE2MzQyOTUzODksImlhdCI6MTYzNDE4Mzc4OSwiZGF0YWJhc2VfaWQiOiI4YWNiZDliOC03ZjRjLTQ3YzEtYTJmNC02ZjcyMzMxYTFjMTgifQ.eFLaZwFR1HWE5XEQZpbygtf6YTXPghHhugfNM8Y2Lvp3uSwUG1jS-N_DwSpEUk-k04dLPJdBS3-Ci22uwNohDQ',
+  REPL_ID: '8acbd9b8-7f4c-47c1-a2f4-6f72331a1c18',
+  REPL_IMAGE: 'gcr.io/marine-cycle-160323/nodejs:fdde5f29558cd4e5d8302c11f8c30ab14b27f5ea',
+  REPL_LANGUAGE: 'nodejs',
+  REPL_OWNER: 'alvinjoy',
+  REPL_PUBKEYS: '{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","primary-2021-02-08":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","primary-2021-02-08:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","primary-2021-02-08:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE="}',
+  REPL_SLUG: 'NaniBot',
+  SHLVL: '0',
+  TERM: 'xterm-256color',
+  TOKEN: 'bruh',
+  X11_NIX_LD_LIBRARY_PATH: '/nix/store/npchmkfw38qjx85al9vvyvyzvxmcsmvm-mesa-21.0.1-drivers/lib:/nix/store/87055wlsj84vcq59ng7w1vhmkbhxsrsr-mesa_glxindirect/lib',
+  X11_NIX_LIBGL_DRIVERS_PATH: '/nix/store/npchmkfw38qjx85al9vvyvyzvxmcsmvm-mesa-21.0.1-drivers/lib/dri',
+  YARN_VERSION: '1.22.5'
+}
