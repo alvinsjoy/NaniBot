@@ -166,7 +166,7 @@ exports.execute = async (client, message, args) => {
       game = null
     }
   }
-  var game = new Game(message, args)
+  let game = new Game(message, args)
 };
 exports.help = {
     name: "trivia",

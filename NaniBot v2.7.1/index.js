@@ -40,7 +40,6 @@ fs.readdir("./commands/",(err,files) => {
         });
     });
 });
-let cd = false;
 client.on("guildMemberAdd",async member => {
   if(member.guild.id == "689508953767411904") {
   let logchannel = member.guild.channels.cache.find(c => c.id === '757975002816577606')
@@ -99,7 +98,7 @@ const prefixMention = new RegExp(`^<@!?${client.user.id}>( |)$`);
  }
 
   const susWords = ['825382504353234954>','692594489172426771>']
-  for (var i = 0; i < susWords.length; i++) {
+  for (let i = 0; i < susWords.length; i++) {
   if (message.content.toLowerCase().includes(susWords[i])) {
     message.react("<:wut:887644552972861441>")
     }
@@ -168,7 +167,7 @@ process.on('unhandledRejection',error => {
   }
 });
 client.login(process.env.TOKEN);
-var http = require('http');  http.createServer(function (req,res) {   
+let http = require('http');  http.createServer(function (req,res) {   
   res.write("I'm alive");
   res.end(); 
 }).listen(8080);

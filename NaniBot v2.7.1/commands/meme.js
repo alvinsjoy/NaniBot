@@ -14,8 +14,8 @@ const { MessageEmbed } = require("discord.js");
       const memeDownvotes = post.data.downs;
 			const memeNumComments = post.data.num_comments;
     const embed = new MessageEmbed()
-			embed.setTitle(`${memeTitle}`);
-			embed.setURL(`${memeUrl}`);
+			embed.setTitle(memeTitle);
+			embed.setURL(memeUrl);
 			embed.setColor('RANDOM');
 			embed.setImage(memeImage);
 			embed.setFooter(`👍 ${memeUpvotes} 👎 ${memeDownvotes} | 💬 ${memeNumComments}`);

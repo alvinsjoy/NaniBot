@@ -4,7 +4,7 @@ exports.execute = async (client, message, args) => {
   let items = Object.keys(client.shop);
   let content = "";
   
-  for (var i in items) {
+  for (let i in items) {
     content += `${items[i]} - ${client.shop[items[i]].cost} <:nanicoin:860184168759951380>\n`
   }
   
