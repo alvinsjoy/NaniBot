@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\NaniBot v2.7.1\\commands\\help.js"
+            "program": "${workspaceFolder}\\NaniBot v2.7.1\\commands\\index.js"
         }
     ]
 }
